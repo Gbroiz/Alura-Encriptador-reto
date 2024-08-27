@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crear código</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="form-section">
+      <h1>Crear Código</h1>
+      <form id="appointment-form">
+        <label for="codigo">Código:</label>
+        <input type="text" id="codigo" name="codigo" required>
+
+        <button type="button" id="encrypt-button">Encriptar</button>
+        <button type="button" id="decrypt-button">Desencriptar</button>
+      </form>
+      <div id="response"></div>
+    </div>
+    <div class="log-section">
+      <h2>Registro de tus códigos</h2>
+      <ul id="data-log"></ul>
+    </div>
+  </div>
+  
+  <p id="p1">Realice una nueva encriptación o desencriptación</p>
+  
+  <script src="script.js"></script>
+</body>
+</html>
